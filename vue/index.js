@@ -36,7 +36,6 @@ function inputEvent(inputs_list, tr_child_list) {
                     if (element.value == "paye") {
                         if (tr_child[3].firstChild.checked) {
                             somme_differe = parseInt(somme_differe) - parseInt(prix);
-
                         }
                     }
 
@@ -50,7 +49,7 @@ function inputEvent(inputs_list, tr_child_list) {
                     }
                 }
 
-                //document.getElementById('somme_differe').setAttribute("value", somme_differe);
+                document.getElementById('somme_differe').setAttribute("value", somme_differe);
                 //console.log(tr_child[5].value)
             });
         }
