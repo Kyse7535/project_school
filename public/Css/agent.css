@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+select {
+    display: block;
+    margin-bottom: 15%;
+}
+
+input,
+select {
+    width: 100%;
+}
+
+main {
+    height: 90%;
+}
+
+form {
+    width: 100%;
+    padding: 20% 12%;
+}

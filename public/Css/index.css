@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #000046;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    height: 10%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    letter-spacing: 2px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+input,
+input[type='submit'],
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 4%;
+}
+
+input[type='submit'] {
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+
+form {
+    border: 3px solid #fff;
+    padding: 10% 5%;
+    background-color: #ccc;
+}
+
+main .table {
+    margin: 0;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 2px solid #ccc;
+    text-align: left;
+    background-color: #ccc;
+}
+
+table th {
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+table input {
+    margin: 0;
+}
+
+main h3 {
+    text-align: center;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+main form #error_msg {
+    display: none;
+    color: red;
+}
+
+main input {
+    display: inline-block;
+    margin: 0;
+}
